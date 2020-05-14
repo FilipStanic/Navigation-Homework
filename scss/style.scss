@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+}
+
+
+// Navigation
+
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    ul {
+        font-family: 'DM Mono', monospace;
+        padding: 0;
+        list-style: none;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        
+      }
+      ul li {
+        width: auto;
+        background-color: #A75813;
+        text-align: right;
+        transition: .6s;
+        display: inline-block;
+      }
+      ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        display: inline-block;
+        height: 100%;
+        width: 120px;
+        margin-left: -84px;
+        transition: .3s;
+      }
+      ul li a i {
+        padding: 10px;
+      }
+}
+
+// Navigation end
+
+
+
+
+
+// Animations
+
+ul li:hover a {
+    margin-left: 0;
+  }
+
+ul li.one:hover a {
+    margin-left: -30px;
+  }
+  
+  ul li.two:hover a {
+    margin-left: -20px;
+  }
+  
+  ul li.three:hover a {
+    margin-left: 0px;
+  }
+  
+  ul li.four:hover a {
+    margin-left: -20px;
+  }
+  
+  ul li.five:hover a {
+    margin-left: -5px;
+  }
+  
+  ul li.five {
+    border-radius: 0 0 10px 0;
+  }
+  
+  ul li.one {
+    border-radius: 0 10px 0 0;
+  }
+  
+  ul li.five:hover {
+    border-radius: 0;
+  }
+  
+  ul li.one:hover {
+    border-radius: 0;
+  }
+
+// Animations end
